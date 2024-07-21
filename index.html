@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flatdango</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="app-container">
+        <h1>Flatdango</h1> 
+        <div class="sidebar">
+            <h2>Movie Menu</h2>
+            <ul id="movie-menu"></ul>
+        </div>
+        <div id="selected-movie">
+            <h2></h2>
+            <img src="" alt="" class="movie-poster">
+            <p></p>
+            <p><strong>Runtime:</strong> <span id="runtime"></span></p>
+            <p><strong>Available Tickets:</strong> <span id="available-tickets"></span></p>
+            <div id="showtimes">
+                <h3>Showtimes:</h3>
+                <ul id="showtime-list"></ul>
+            </div>
+            <button id="buy-ticket">Buy Ticket</button> 
+        </div>
+        <div id="confirmation">
+            <p>Thank you for your purchase!</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script> 
 </body>
 </html>
